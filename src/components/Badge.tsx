@@ -20,9 +20,9 @@ export default function Badge({ text }: Props) {
       color = "#733e0a";
       description = "Not released, but in development";
       break;
-    case "Abandoned":
-      color = "#82181a";
-      description = "Abandoned by author.";
+    case "Archived":
+      color = "#824a17";
+      description = "Archived or abandoned by author.";
       break;
     case "Unknown":
       color = "#024a70";

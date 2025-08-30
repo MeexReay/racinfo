@@ -49,28 +49,28 @@ export default function Projects() {
       authorId: "OctoBanon-Main",
       projectGit: "https://github.com/OctoBanon-Main/mefedroniy-client",
       description: "TUI client for Real Address Chat protocol.",
-      tags: ["Abandoned", "RAC", "v1.99"],
+      tags: ["Archived", "RAC", "v1.99"],
     },
     {
       name: "cRACk",
       authorId: "pansangg",
       projectGit: "https://github.com/pansangg/cRACk",
       description: "TUI RAC client on Python.",
-      tags: ["Abandoned", "RAC", "v2"],
+      tags: ["Archived", "RAC", "v2"],
     },
     {
       name: "CRAB",
       authorId: "pixtated",
       projectGit: "https://gitea.bedohswe.eu.org/pixtaded/crab",
       description: "Crimean RAC Bundle. (cli)",
-      tags: ["Abandoned", "RAC", "v1.99"],
+      tags: ["Archived", "RAC", "v1.99"],
     },
     {
       name: "dobroho_vechora",
       authorId: "bedohswe",
       projectGit: "https://gitea.bedohswe.eu.org/bedohswe/dobroho_vechora",
       description: "RAC client made with Bash script. (cli)",
-      tags: ["Abandoned", "RAC", "v1"],
+      tags: ["Archived", "RAC", "v1"],
     },
   ];
 
@@ -96,14 +96,14 @@ export default function Projects() {
       authorId: "pixtated",
       projectGit: "https://gitea.bedohswe.eu.org/pixtaded/crab",
       description: "Crimean RAC Bundle ",
-      tags: ["Abandoned", "RAC", "v1.99"],
+      tags: ["Archived", "RAC", "v1.99"],
     },
     {
       name: "AlmatyD",
       authorId: "bedohswe",
       projectGit: "https://gitea.bedohswe.eu.org/bedohswe/almatyd",
       description: "Open source server for Sugoma's RAC protocol ",
-      tags: ["Abandoned", "RAC", "v1"],
+      tags: ["Archived", "RAC", "v1"],
     },
   ];
 
