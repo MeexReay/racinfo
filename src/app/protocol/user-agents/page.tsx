@@ -19,7 +19,7 @@ type UserAgent = {
   color: string;
 };
 
-export default function Wrac() {
+export default function UserAgents() {
   const userAgents: UserAgent[] = [
     {
       client: "Tower",

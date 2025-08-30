@@ -30,6 +30,12 @@ export default function Protocol() {
       curator: "@kostya-zero",
       href: "/protocol/user-agents",
     },
+    {
+      name: "Avatars",
+      desc: "An explanation of the basic user-made implementation of avatars in RAC clients.",
+      curator: "@MeexReay",
+      href: "/protocol/avatars",
+    },
   ];
 
   return (
