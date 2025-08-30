@@ -41,7 +41,7 @@ function ProjectCard({
 
       <p className={"text-stone-400 mb-1"}>{description}</p>
 
-      <div className={"flex flex-row mt-auto gap-1 items-center"}>
+      <div className={"flex flex-wrap flex-row mt-auto gap-1 items-center"}>
         {tags.map((tag) => (
           <Badge text={tag} key={tag} />
         ))}

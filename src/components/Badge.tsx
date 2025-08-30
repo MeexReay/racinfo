@@ -28,6 +28,12 @@ export default function Badge({ text }: Props) {
       color = "#024a70";
       description = "The project is in unknown state.";
       break;
+    case "Client":
+      description = "This tool is for client development.";
+      break;
+    case "Server":
+      description = "This tool is for server development.";
+      break;
     case "WRAC":
       description = "Supports connection via WebSocket-base RAC protocol.";
       break;

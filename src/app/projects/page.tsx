@@ -107,6 +107,16 @@ export default function Projects() {
     },
   ];
 
+  const tools: ProjectProps[] = [
+    {
+      name: "rac-rs",
+      authorId: "kostya-zero",
+      projectGit: "https://github.com/kostya-zero/rac-rs",
+      description: "A Rust client library for RAC protocol.",
+      tags: ["Active", "Client", "WRAC", "RAC", "v2", "TLS"],
+    }
+  ];
+
   return (
     <main className={"flex flex-col gap-4 w-full"}>
       <PageTitle id={"projects"}>Projects</PageTitle>
@@ -154,6 +164,24 @@ export default function Projects() {
             projectGit={server.projectGit}
             description={server.description}
             tags={server.tags}
+          />
+        ))}
+      </div>
+      <Title id={"servers"}>Tools</Title>
+      <Text>
+        You can use these tools for your projects! Don&apos;t be shy!
+      </Text>
+      <div className={"grid grid-cols-1 md:grid-cols-2 gap-4 w-full"}>
+        {tools.map((tool) => (
+          <ProjectCard
+            key={tool.name}
+            name={tool.name}
+            externalDownload={tool.externalDownload}
+            externalLink={tool.externalLink}
+            authorId={tool.authorId}
+            projectGit={tool.projectGit}
+            description={tool.description}
+            tags={tool.tags}
           />
         ))}
       </div>
