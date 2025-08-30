@@ -14,13 +14,6 @@ export default function Projects() {
       tags: ["Active", "WRAC", "RAC", "v2", "TLS"],
     },
     {
-      name: "Mefedroniy",
-      authorId: "OctoBanon-Main",
-      projectGit: "https://github.com/OctoBanon-Main/mefedroniy-client",
-      description: "TUI client for Real Address Chat protocol.",
-      tags: ["Active", "RAC", "v1.99.2"],
-    },
-    {
       name: "crack",
       authorId: "kiber_ogur4ik",
       projectGit: "https://gitlab.com/kiber_ogur4ik/crack",
@@ -52,6 +45,13 @@ export default function Projects() {
       tags: ["Unknown", "RAC", "v2"],
     },
     {
+      name: "Mefedroniy",
+      authorId: "OctoBanon-Main",
+      projectGit: "https://github.com/OctoBanon-Main/mefedroniy-client",
+      description: "TUI client for Real Address Chat protocol.",
+      tags: ["Abandoned", "RAC", "v1.99.2"],
+    },
+    {
       name: "cRACk",
       authorId: "pansangg",
       projectGit: "https://github.com/pansangg/cRACk",
@@ -81,13 +81,6 @@ export default function Projects() {
       projectGit: "https://github.com/MeexReay/sRAC",
       description: "Simple RAC server.",
       tags: ["Active", "WRAC", "RAC", "v2", "TLS"],
-    },
-    {
-      name: "Gashishnik",
-      authorId: "OctoBanon-Main",
-      projectGit: "https://github.com/OctoBanon-Main/mefedroniy-client",
-      description: "A WRAC server.",
-      tags: ["Unreleased", "WRAC", "v2"],
     },
     {
       name: "lRACd",
