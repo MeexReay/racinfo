@@ -22,10 +22,10 @@ export default function Projects() {
     },
     {
       name: "crack",
-      authorId: "kiberOgur4ik",
+      authorId: "kiber_ogur4ik",
       projectGit: "https://gitlab.com/kiber_ogur4ik/crack",
       description:
-        "Cool RAC klient for Web, Android and iOS (RAC v1 and WRAC v2). (web-app)",
+        "Cool RAC klient for Web, Android and iOS. (web-app)",
       tags: ["Active", "WRAC", "RAC", "v2", "v1.0", "TLS"],
     },
     {
@@ -39,7 +39,7 @@ export default function Projects() {
       name: "Snowdrop",
       authorId: "Forbirdden",
       projectGit: "https://github.com/Forbirdden/Snowdrop",
-      description: "The best (w)RAC-based messenger (web-app)",
+      description: "The best (w)RAC-based messenger. (web-app)",
       tags: ["Active", "WRAC", "RAC", "v2"],
     },
     {
@@ -62,7 +62,7 @@ export default function Projects() {
       name: "CRAB",
       authorId: "pixtated",
       projectGit: "https://gitea.bedohswe.eu.org/pixtaded/crab",
-      description: "Crimean RAC Bundle (cli)",
+      description: "Crimean RAC Bundle. (cli)",
       tags: ["Abandoned", "RAC", "v1.99.2"],
     },
     {
