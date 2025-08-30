@@ -39,8 +39,8 @@ export default function Projects() {
       name: "Snowdrop",
       authorId: "Forbirdden",
       projectGit: "https://github.com/Forbirdden/Snowdrop",
-      description: "Coming Soon™",
-      tags: ["Unreleased", "WRAC", "RAC", "v2"],
+      description: "The best (w)RAC-based messenger",
+      tags: ["Active", "WRAC", "RAC", "v2"],
     },
     {
       name: "clRAC",
