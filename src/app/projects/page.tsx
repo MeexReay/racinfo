@@ -10,14 +10,14 @@ export default function Projects() {
       name: "bRAC",
       authorId: "MeexReay",
       projectGit: "https://github.com/MeexReay/bRAC",
-      description: "Better RAC client.",
+      description: "Better RAC client. (gtk4)",
       tags: ["Active", "WRAC", "RAC", "v2", "TLS"],
     },
     {
       name: "Mefedroniy",
       authorId: "OctoBanon-Main",
       projectGit: "https://github.com/OctoBanon-Main/mefedroniy-client",
-      description: "TUI client for Real Address Chat protocol. ",
+      description: "TUI client for Real Address Chat protocol.",
       tags: ["Active", "RAC", "v1.99.2"],
     },
     {
@@ -25,21 +25,21 @@ export default function Projects() {
       authorId: "kiberOgur4ik",
       projectGit: "https://gitlab.com/kiber_ogur4ik/crack",
       description:
-        "Cool RAC klient for Web, Android and iOS (RAC v1 and WRAC v2)",
+        "Cool RAC klient for Web, Android and iOS (RAC v1 and WRAC v2). (web-app)",
       tags: ["Active", "WRAC", "RAC", "v2", "v1.0", "TLS"],
     },
     {
       name: "Tower",
       authorId: "kostya-zero",
       projectGit: "https://github.com/kostya-zero/tower",
-      description: "A modern desktop client for RAC protocol built with Tauri.",
+      description: "A modern desktop client for RAC protocol built with Tauri. (web-app)",
       tags: ["Active", "WRAC", "RAC", "v2", "TLS"],
     },
     {
       name: "Snowdrop",
       authorId: "Forbirdden",
       projectGit: "https://github.com/Forbirdden/Snowdrop",
-      description: "The best (w)RAC-based messenger",
+      description: "The best (w)RAC-based messenger (web-app)",
       tags: ["Active", "WRAC", "RAC", "v2"],
     },
     {
@@ -48,7 +48,7 @@ export default function Projects() {
       authorId: "sugoma",
       externalLink: "https://wdfiles.ru/Ofx7",
       projectGit: "",
-      description: "The official RAC client.",
+      description: "The official RAC client. (cli)",
       tags: ["Unknown", "RAC", "v2"],
     },
     {
@@ -62,14 +62,14 @@ export default function Projects() {
       name: "CRAB",
       authorId: "pixtated",
       projectGit: "https://gitea.bedohswe.eu.org/pixtaded/crab",
-      description: "Crimean RAC Bundle ",
+      description: "Crimean RAC Bundle (cli)",
       tags: ["Abandoned", "RAC", "v1.99.2"],
     },
     {
       name: "dobroho_vechora",
       authorId: "bedohswe",
       projectGit: "https://gitea.bedohswe.eu.org/bedohswe/dobroho_vechora",
-      description: "RAC client made with Bash script.",
+      description: "RAC client made with Bash script. (cli)",
       tags: ["Abandoned", "RAC", "v1.0"],
     },
   ];
