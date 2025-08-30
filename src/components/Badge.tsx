@@ -43,10 +43,10 @@ export default function Badge({ text }: Props) {
     case "v2":
       description = "Compatible with RAC v2.";
       break;
-    case "v1.99.2":
-      description = "Compatible with RAC v1.99.2.";
+    case "v1.99":
+      description = "Compatible with RAC v1.99.x.";
       break;
-    case "v1.0":
+    case "v1":
       description = "Compatible with RAC v1.0.";
       break;
     case "TLS":
