@@ -1,6 +1,5 @@
 ﻿"use client";
 
-import Wrac from "@/app/protocol/wrac/page";
 import HoverLink from "@/components/HoverLink";
 import { usePathname } from "next/navigation";
 
