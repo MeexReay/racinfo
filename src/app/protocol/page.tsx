@@ -27,7 +27,7 @@ export default function Protocol() {
     {
       name: "User Agents",
       desc: "A community-made solution to identify clients by a unique symbol in front of their username.",
-      curator: "@kostya-zero",
+      curator: "@MeexReay",
       href: "/protocol/user-agents",
     },
     {

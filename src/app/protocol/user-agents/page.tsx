@@ -11,7 +11,6 @@ import {
 import Text from "@/components/blocks/Text";
 import PageTitle from "@/components/blocks/PageTitle";
 import Code from "@/components/blocks/Code";
-import InlineCode from "@/components/blocks/InlineCode";
 
 type UserAgent = {
   client: string;
@@ -79,16 +78,19 @@ export default function UserAgents() {
         <b>User Agents</b>.
       </Text>
       <Text>
-        User Agents in RAC are implemented by adding an extra Unicode symbol as
-        a prefix to usernames. For example, a message sent with the Tower
+        User Agents in RAC are implemented by changing the message regex.
+        For example, a message sent with the Tower
         client:
       </Text>
       <Code>{"▲<zero> Hello, world!"}</Code>
       <Text>
-        The <InlineCode>▲</InlineCode> symbol in front of the username indicates
-        that this message was sent using the Tower client. The client should use
-        regex to parse these messages and determine the client, username, and
-        message.
+        It can be just a prefix, or actually a new message structure,
+        For example, first versions of Mefedroniy, sent messages like this:
+      </Text>
+      <Code>{"banon: Hello, world!"}</Code>
+      <Text>
+        That{"'"}s why the clients should use regex to parse these messages
+        and determine the client, username, and message.
       </Text>
       <h3 className={"text-3xl text-stone-300 font-semibold font-rokkitt"}>
         Known Agents
