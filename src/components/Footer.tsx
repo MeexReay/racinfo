@@ -17,7 +17,7 @@ export default function Footer() {
           © 2025 MeexReay
         </Link>
       </div>
-      <div className="flex text-stone-500 items-center">
+      <div className="flex text-stone-500 items-center align-end">
         <p>The source code is available on</p>
         <Link
           href="https://github.com/MeexReay/racinfo"

@@ -7,6 +7,10 @@
   flex-wrap: wrap;
 }
 
+.align-end {
+  align-self: end
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
