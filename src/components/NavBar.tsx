@@ -1,5 +1,6 @@
 ﻿"use client";
 
+import Wrac from "@/app/protocol/wrac/page";
 import HoverLink from "@/components/HoverLink";
 import { usePathname } from "next/navigation";
 
@@ -9,7 +10,7 @@ export default function NavBar() {
   return (
     <header className={"w-full flex flex-row items-end justify-between"}>
       <h1 className={"text-5xl text-stone-200 font-rokkitt font-bold"}>
-        Racinfo
+        <a href="/">Racinfo</a>
       </h1>
       <nav className={"flex flex-row items-center gap-4 mb-2"}>
         <HoverLink
